@@ -1,0 +1,186 @@
+/* Furog Games — Tiny Couriers site. Brand: warm orange, cream, sky blue; rounded, friendly. */
+@font-face {
+  font-family: "Baloo 2";
+  src: url("fonts/Baloo2.ttf") format("truetype");
+  font-weight: 400 800;
+  font-display: swap;
+}
+
+:root {
+  --bg: #fff6e8;
+  --card: #ffffff;
+  --edge: #ead6b8;
+  --ink: #3a2817;
+  --dim: #7a6450;
+  --accent: #ff8a1f;
+  --accent-dark: #d9620a;
+  --sky: #34b3fd;
+  --display: "Baloo 2", "Arial Rounded MT Bold", system-ui, sans-serif;
+  --body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1d1712;
+    --card: #2a221a;
+    --edge: #4a3a2a;
+    --ink: #f6eadb;
+    --dim: #c9b39a;
+    --accent: #ff9a3c;
+    --accent-dark: #ffb366;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.6 var(--body);
+}
+
+a { color: var(--accent-dark); }
+a:hover { color: var(--ink); }
+
+.wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+header.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.brand {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+nav.lang a {
+  font-family: var(--display);
+  font-weight: 600;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+nav.lang a[aria-current="page"] { color: var(--ink); text-decoration: underline; }
+
+h1, h2, h3 {
+  font-family: var(--display);
+  line-height: 1.15;
+  margin: 0 0 12px;
+}
+
+h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); font-weight: 800; }
+h2 { font-size: 1.6rem; font-weight: 800; margin-top: 40px; }
+h3 { font-size: 1.2rem; font-weight: 700; margin-top: 28px; }
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.hero img.icon {
+  width: 148px;
+  height: 148px;
+  border-radius: 33px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  flex: none;
+}
+
+.lead { font-size: 1.15rem; color: var(--dim); margin: 0 0 16px; max-width: 46ch; }
+
+.button {
+  display: inline-block;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.1rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 16px;
+  border-bottom: 5px solid var(--accent-dark);
+  padding: 10px 22px;
+  text-decoration: none;
+}
+
+.button:hover { color: #fff; filter: brightness(1.05); }
+.button.soon { background: #b3a999; border-bottom-color: #8f8576; cursor: default; }
+
+.shots {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 36px;
+}
+
+.shots img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  border: 3px solid var(--edge);
+  background: var(--card);
+}
+
+@media (max-width: 640px) {
+  .shots { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.features li {
+  background: var(--card);
+  border: 2px solid var(--edge);
+  border-radius: 18px;
+  padding: 14px 16px;
+}
+
+.features b { font-family: var(--display); font-size: 1.08rem; display: block; }
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: var(--card);
+  border: 2px solid var(--edge);
+  border-radius: 22px;
+  padding: 16px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.card img { width: 96px; height: 96px; border-radius: 22px; flex: none; }
+.card b { font-family: var(--display); font-size: 1.4rem; display: block; }
+.card span { color: var(--dim); }
+
+.doc { max-width: 70ch; }
+.doc .meta { color: var(--dim); }
+
+footer {
+  margin-top: 56px;
+  padding-top: 16px;
+  border-top: 2px solid var(--edge);
+  color: var(--dim);
+  font-size: 0.95rem;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
