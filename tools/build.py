@@ -5,7 +5,7 @@ Sayfalar: / · /tiny-couriers/ (+tr) · /tiny-couriers/privacy/ (+tr) · /tiny-c
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CONTACT_EMAIL = "EMAIL_BURAYA"      # yayımlanacak destek e-postası
+CONTACT_EMAIL = "marinariogroup@gmail.com"      # yayımlanacak destek e-postası
 APP_STORE_URL = ""                  # yayına çıkınca: https://apps.apple.com/app/idXXXXXXXXX
 EFFECTIVE = {"en": "November 16, 2026", "tr": "16 Kasım 2026"}
 
