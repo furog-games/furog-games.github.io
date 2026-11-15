@@ -1,3 +1,1 @@
-# Furog Games — authorized ad sellers (IAB app-ads.txt)
-# The AdMob publisher line is added here once the AdMob account is ready:
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-9643895591843438, DIRECT, f08c47fec0942fa0
