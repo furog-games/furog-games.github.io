@@ -19,7 +19,7 @@ T = {
         "features_title": "What you do",
         "features": [
             ("Dispatch orders", "Pick the right courier for every order before it runs out of time."),
-            ("Grow your fleet", "Hire couriers, sign contracts with 13 shops and unlock 4 districts."),
+            ("Grow your fleet", "Hire couriers, sign contracts with local shops and unlock new districts."),
             ("Upgrade everything", "Faster scooters, more orders, auto-collect and a manager who works while you're away."),
             ("Pause and plan", "Freeze the map, assign everyone, then hit play and watch them go."),
         ],
@@ -36,7 +36,7 @@ T = {
         "features_title": "Oyunda neler var",
         "features": [
             ("Siparişleri dağıt", "Her siparişi süresi dolmadan doğru kuryeye ata."),
-            ("Filonu büyüt", "Kurye al, 13 dükkânla sözleşme imzala, 4 mahalleyi aç."),
+            ("Filonu büyüt", "Kurye al, dükkânlarla sözleşme imzala, yeni mahalleler aç."),
             ("Her şeyi geliştir", "Hızlı scooterlar, daha çok sipariş, otomatik toplama ve sen yokken çalışan bir müdür."),
             ("Durdur ve planla", "Haritayı dondur, herkesi ata, sonra oynat ve kuryelerini izle."),
         ],
