@@ -254,7 +254,8 @@ and this data is never sent to us. Deleting the app deletes this data.</p>
   <li>diagnostic data such as crashes and performance.</li>
 </ul>
 <p>If you are in the European Economic Area, the United Kingdom or Switzerland, the app asks for your consent
-through Google's consent form before ads are personalized. If you do not allow tracking, ads are still shown but are
+through Google's consent form before ads are personalized, and you can review or change your choice any time in the
+game under Settings → Privacy options. If you do not allow tracking, ads are still shown but are
 not personalized with the IDFA. You can change this any time in iOS Settings → Privacy &amp; Security → Tracking.
 Google's use of this data is described in
 <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and
@@ -304,7 +305,8 @@ gönderilmez. Uygulamayı silmek bu verileri de siler.</p>
   <li>çökme ve performans gibi tanılama verileri.</li>
 </ul>
 <p>Avrupa Ekonomik Alanı, Birleşik Krallık ya da İsviçre'deysen uygulama, reklamlar kişiselleştirilmeden önce
-Google'ın onay formuyla iznini ister. İzlemeye izin vermezsen reklamlar yine gösterilir ama IDFA ile
+Google'ın onay formuyla iznini ister; seçimini istediğin zaman oyunda Ayarlar → Gizlilik seçenekleri bölümünden
+görebilir ve değiştirebilirsin. İzlemeye izin vermezsen reklamlar yine gösterilir ama IDFA ile
 kişiselleştirilmez. Bunu istediğin zaman iOS Ayarlar → Gizlilik ve Güvenlik → İzleme bölümünden değiştirebilirsin.
 Google'ın bu verileri nasıl kullandığı
 <a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a>'nda ve
